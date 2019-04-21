@@ -1,7 +1,7 @@
 var express = require('express');
 var app = express();
 var fs = require('fs');
-var Jimp = require("Jimp");
+var Jimp = require("jimp");
 
 app.get('/scp/:number', function(req, res){
   var request = require('request');
