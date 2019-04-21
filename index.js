@@ -61,6 +61,7 @@ function print(cb, image, tags, font, x, y){
       print(cb, image, tags, font, x, y);
     }
   } else if(i >= tags.length) {
+    i = 0;
     cb(image);
   }
 }
